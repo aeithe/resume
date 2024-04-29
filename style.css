@@ -1,0 +1,33 @@
+body{
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    text-align: center;
+    container: center;
+    
+}
+
+ul{
+    list-style-position: inside;
+    margin: 0;
+    padding: 0;
+}
+.subheading ul{
+    list-style: none;
+
+}
+
+ li{
+    margin: 0;
+    padding: 0;
+}
+
+
+ol{
+    list-style-position: inside;
+    margin: 0;
+    padding: 0;
+}
+ .header, .summary{
+    border-bottom: 1px solid #c3a8e2;
+ }
