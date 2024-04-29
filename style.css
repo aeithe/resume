@@ -1,20 +1,39 @@
 body{
+    background-image: url(https://images.pexels.com/photos/1415734/pexels-photo-1415734.jpeg);
+    background-position: top;
+    background-size: 100%;
+    background-attachment: fixed;
+}
+#header{
+    display: flex;
+    border: 2px solid #f7793f;
+}
+#header p{
+    text-align: center;
+    align-items: flex-end;
+    position: inherit;
+}
+
+.resume{
     display: flex;
     flex-direction: column;
     flex-wrap: wrap;
     text-align: center;
     container: center;
-    
+    text-wrap: wrap;
+    margin: auto;
 }
+
 
 ul{
     list-style-position: inside;
     margin: 0;
     padding: 0;
-}
-.subheading ul{
     list-style: none;
+}
 
+.tech ul{
+    list-style: none;
 }
 
  li{
@@ -22,12 +41,80 @@ ul{
     padding: 0;
 }
 
-
 ol{
     list-style-position: inside;
     margin: 0;
     padding: 0;
+    list-style: none;
 }
- .header, .summary{
-    border-bottom: 1px solid #c3a8e2;
+ .header, .summary, .subheading, .certification, .edu, .experience, .tech{
+    width: 500px;
+    background-color: #fff;
  }
+
+ #education{
+    width: 500px;
+    border: 2px solid #f7793f;
+ }
+ h2{
+    background-color: #fff;
+    width: 500px;
+    text-decoration: underline;
+ }
+
+
+ .header h1{
+        font-family: "Sacramento", cursive;
+        font-weight: 400;
+        font-style: normal;
+        font-size: 64px;
+        padding-bottom: 0px;
+        margin-bottom: 0px;
+        color: #fff200;
+      }
+      
+h2,h3{
+    font-family: "Gloria Hallelujah", cursive;
+    font-weight: 400;
+    font-style: normal;
+    padding-bottom: 0px;
+    margin-bottom: 0px;
+    color: #ff0000;
+}
+
+.etc{
+    padding-top: 0;
+    margin-top: 0;
+}
+
+b, h3{
+    color:#f7793f;
+    margin-top: 0px;
+    padding-top: 0px;
+    margin-bottom: 0px;
+    padding-bottom: 0px;
+}
+/* unvisited link */
+a:link {
+  color: rgb(255, 0, 0);
+}
+
+/* visited link */
+a:visited {
+  color: rgb(243, 202, 20);
+}
+
+/* mouse over link */
+a:hover {
+  color: rgb(53, 128, 6);
+}
+
+/* selected link */
+a:active {
+  color: rgb(255, 0, 0);
+}
+
+.subheading, .tech, .certification, #education, .experience{
+    border: 2px solid #f7793f;
+    margin: 5px;
+}
