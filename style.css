@@ -29,7 +29,7 @@ ul{
     list-style-position: inside;
     margin: 0;
     padding: 0;
-    list-style: none;
+    
 }
 
 .tech ul{
@@ -47,19 +47,23 @@ ol{
     padding: 0;
     list-style: none;
 }
- .header, .summary, .subheading, .certification, .edu, .experience, .tech{
+ .header, .summary, .subheading, .certification, .experience, .tech{
     width: 500px;
     background-color: #fff;
  }
 
- #education{
+ #edu{
     width: 500px;
     border: 2px solid #f7793f;
+    background-color: #fff;
  }
+
  h2{
     background-color: #fff;
     width: 500px;
     text-decoration: underline;
+    padding: 0px;
+    margin: 0px;
  }
 
 
@@ -77,9 +81,16 @@ h2,h3{
     font-family: "Gloria Hallelujah", cursive;
     font-weight: 400;
     font-style: normal;
-    padding-bottom: 0px;
-    margin-bottom: 0px;
+    padding: 0px;
+    margin: 0px;
     color: #ff0000;
+    
+}
+
+h4{
+    margin: 0px;
+    padding: 0px;
+
 }
 
 .etc{
@@ -114,7 +125,7 @@ a:active {
   color: rgb(255, 0, 0);
 }
 
-.subheading, .tech, .certification, #education, .experience{
+.subheading, .tech, .certification, .experience{
     border: 2px solid #f7793f;
     margin: 5px;
 }
